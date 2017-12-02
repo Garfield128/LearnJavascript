@@ -5,8 +5,8 @@ Feature: Login Facebook
 	
 Background:
 	Given user:
-	|Email         | phone number     |  Password
-	|abc@gmail.com | 012345678        |  a1s2d3
+	|Email         | phone number     |  Password  |
+	|abc@gmail.com | 012345678        |  a1s2d3    |
 	
 Scenario: Login by Email successful
 	Given Access https://www.facebook.com/login
